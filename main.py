@@ -9,3 +9,8 @@ def index():
 @app.get("/about")
 def about():
     return {"data": "about page"}
+
+
+@app.get("/tryme")
+def tryme():
+    return {"data": "tryme page"}
